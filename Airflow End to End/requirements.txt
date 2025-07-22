@@ -1,0 +1,25 @@
+# MWAA Requirements for Lead Scoring ML Pipeline
+# Upload this file to your MWAA environment S3 bucket
+
+# Core ML Libraries
+pandas==1.5.3
+numpy==1.24.3
+scikit-learn==1.2.2
+xgboost==1.7.5
+
+# Drift Detection
+evidently==0.4.16
+
+# AWS SDK
+boto3==1.26.137
+botocore==1.29.137
+
+# Airflow AWS Providers (if not already installed)
+apache-airflow-providers-amazon==8.2.0
+
+# Data Processing
+joblib==1.2.0
+pyarrow==12.0.0
+
+# For SageMaker
+sagemaker==2.150.0
