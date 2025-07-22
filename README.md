@@ -71,14 +71,20 @@ lead-conversion-prediction/
 | `retraining_dag.py` | Monthly retraining and best model update |
 
 📸 **Airflow DAG UI Screenshot**
-### data_ingestion_dag.py
-<img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/59bc1a94-848a-4aae-bf1d-1e8880bf12bb" />
+<img width="970" height="497" alt="image" src="https://github.com/user-attachments/assets/cb40fc9c-8b1c-45bd-8fdf-98aaf2138e23" />
 
-### data_drift_detection_dag.py
-<img width="1919" height="1035" alt="image (1)" src="https://github.com/user-attachments/assets/2d867eff-bc77-41a2-8d0a-fe0f966b867e" />
+### `watcher_dag.py`
+<img width="970" height="479" alt="image" src="https://github.com/user-attachments/assets/485c0981-b1df-4d8c-8a0a-fc17f6ce490e" />
 
-### `retraining_dag.py`
-<img width="1919" height="1033" alt="image (2)" src="https://github.com/user-attachments/assets/57538cf7-1502-4a4a-8499-43920a8e4180" />
+### `master_dag.pyy`
+<img width="1044" height="522" alt="image" src="https://github.com/user-attachments/assets/0a52e8b5-8d1c-42fb-8915-e51f684b4bcf" />
+
+
+### `data_drift_dag.py`
+<img width="1016" height="470" alt="image" src="https://github.com/user-attachments/assets/207a8104-9927-4e99-bd4e-2a7a670c2410" />
+
+ ### `model_retraining_dag.py`
+ <img width="1051" height="502" alt="image" src="https://github.com/user-attachments/assets/9cf66001-0c3b-40b8-8a66-637ceeec3170" />
 
 ---
 
